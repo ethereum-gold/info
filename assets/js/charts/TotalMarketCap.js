@@ -85,7 +85,7 @@
          document.body.appendChild(legend);
          
          var firstRow = document.createElement('div');
-         firstRow.innerHTML = '<div style="font-size: 24px; margin: 4px 0px; color: #fff"> MetaMoney </div>' + '  ' + '<div style="font-size: 15px; margin: 4px 0px; color: #fff"> Market Cap</div>';
+         firstRow.innerHTML = '<div style="font-size: 24px; margin: 4px 0px; color: #fff"> Ethereum Gold </div>' + '  ' + '<div style="font-size: 15px; margin: 4px 0px; color: #fff"> Market Cap</div>';
          firstRow.style.color = 'white';
          legend.appendChild(firstRow);
          
@@ -98,8 +98,8 @@
              if (param.time) {
                  dateStr = param.time.year + ' - ' + param.time.month + ' - ' + param.time.day;
                  const price = param.seriesPrices.get(areaSeries);
-                 firstRow.innerHTML = '<div style="font-size: 24px; margin: 4px 0px; color: #fff"> MetaMoney </div>' + '  ' + '<div style="font-size: 15px; margin: 4px 0px; color: #fff"> Market Cap</div>' + '$' + price.toFixed(2) + '</div>';
+                 firstRow.innerHTML = '<div style="font-size: 24px; margin: 4px 0px; color: #fff"> Ethereum Gold </div>' + '  ' + '<div style="font-size: 15px; margin: 4px 0px; color: #fff"> Market Cap</div>' + '$' + price.toFixed(2) + '</div>';
              } else {
-                 firstRow.innerHTML = '<div style="font-size: 24px; margin: 4px 0px; color: #fff"> MetaMoney </div>' + '  ' + '<div style="font-size: 15px; margin: 4px 0px; color: #fff"> Market Cap</div>';
+                 firstRow.innerHTML = '<div style="font-size: 24px; margin: 4px 0px; color: #fff"> Ethereum Gold </div>' + '  ' + '<div style="font-size: 15px; margin: 4px 0px; color: #fff"> Market Cap</div>';
              }
          });    
