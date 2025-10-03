@@ -1,2 +1,2 @@
-# info
-MetaMoney Info inspired by Uniswap Info
+# ethereum-gold.github.io/info
+Ethereum Gold info inspired by Uniswap
